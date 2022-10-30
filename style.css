@@ -1,0 +1,56 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background: #2F1893;
+    overflow-x: hidden;
+}
+.btn {
+    border: 1px;
+    box-shadow: none;
+    border-radius: 100px;
+    background: #25dac5;
+    padding: 7px 15px;
+}
+.phone {
+    /* position: absolute; */
+    left: 35.5%;
+    right: 58.23%;
+
+    
+}
+.iphone {
+    height: 600px;
+    top: 90px;
+}
+.st-3 {
+    font-size: 20px;
+}
+.let {
+    font-weight: 600;
+    font-size: 50px;
+}
+.order {
+    display: flex;
+    justify-content: end;
+}
+.txt-content{
+    margin-bottom: 10px;
+}
+@media screen and (max-width:980px) {
+    .main-row{
+        flex-direction: column-reverse;
+    }
+} 
+
+/* .i-phone {
+    display: flex;
+    justify-content: center;
+} */
+/* @media screen and (max-width:650px) {
+    .btn {
+        align-content: center;
+        margin-left: 100px;
+        padding: 7px 50px;
+    }
+} */
